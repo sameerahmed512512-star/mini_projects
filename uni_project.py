@@ -140,9 +140,7 @@ class Student(Person):
         return self.__total_marks
 
 
-# =====================================
-# Main Program
-# =====================================
+
 
 students = []
 
@@ -174,10 +172,7 @@ for i in range(num):
 
     students.append(obj)
 
-
-# =====================================
 # Display Result
-# =====================================
 
 print("\n")
 print("All Students Result")
@@ -186,10 +181,8 @@ for student in students:
 
     student.display_result()
 
-
-# =====================================
 # Ranking System
-# =====================================
+
 
 for i in range(len(students)):
 
