@@ -194,11 +194,7 @@ for i in range(len(students)):
             students[i].get_total_marks()
         ):
 
-            temp = students[i]
-
-            students[i] = students[j]
-
-            students[j] = temp
+            students[i], students[j] = students[j], students[i]
 
 
 print("\n")
